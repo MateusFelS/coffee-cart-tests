@@ -33,18 +33,18 @@ Este projeto foi desenvolvido para exercitar habilidades de QA em automação, u
 
 A estrutura de pastas e arquivos é organizada para facilitar a manutenção e entendimento dos testes.
 
-``` bash
-├── cypress/
-│   ├── e2e/
-│   │   ├── cart.cy.js         # Testes do carrinho de compras
-|   |   ├── promo.cy.js        # Testes de promoção
-│   ├── pages/
-|   |   ├── cart_page.cy.js    # Contém os elementos e ações relacionadas à página de carrinho
-|   |   ├── menu_page.cy.js    # Contém os elementos e ações relacionadas ao menu do site
-│   ├── support/
-│   │   ├── commands.js        # Comandos customizados do Cypress
-│   │   ├── e2e.js             # Configurações globais para o Cypress
-├── README.md                  # Documentação do projeto
+   ``` bash
+   ├── cypress/
+   │   ├── e2e/
+   │   │   ├── cart.cy.js         # Testes do carrinho de compras
+   |   |   ├── promo.cy.js        # Testes de promoção
+   │   ├── pages/
+   |   |   ├── cart_page.cy.js    # Contém os elementos e ações relacionadas à página de carrinho
+   |   |   ├── menu_page.cy.js    # Contém os elementos e ações relacionadas ao menu do site
+   │   ├── support/
+   │   │   ├── commands.js        # Comandos customizados do Cypress
+   │   │   ├── e2e.js             # Configurações globais para o Cypress
+   ├── README.md                  # Documentação do projeto
 
 ## Instalação e Execução
 
