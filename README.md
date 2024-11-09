@@ -54,7 +54,6 @@ Para rodar os testes em sua máquina local, siga os passos abaixo:
 
    ```bash
    git clone https://github.com/MateusFels/coffee-cart_QA.git
-
    cd "seu_repositorio"
 
 2. **Instale as dependências**:
