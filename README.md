@@ -8,6 +8,7 @@ Este é um projeto de estudo para aprender e praticar automação de testes com 
 
 - [Objetivo](#objetivo)
 - [Funcionalidades Testadas](#funcionalidades-testadas)
+- [Problemas e Riscos](#problemas-e-riscos)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Instalação e Execução](#instalação-e-execução)
@@ -25,6 +26,18 @@ Este projeto foi desenvolvido para exercitar habilidades de QA em automação, u
 - **Alterar Quantidade de Itens**: Aumenta a quantidade de um item no carrinho e verifica o preço total.
 - **Verificar Promoção**: Verifica se a promoção foi ativada ou não após 3 itens adicionados ao carrinho.
 - **Limite de Promoção**: Verifica se a promoção é ativada mais de uma vez para o mesmo usuário.
+
+## Problemas e Riscos
+
+Durante a execução dos testes, foram identificados dois problemas principais:
+
+1. Cupom de desconto acionado infinitamente para o mesmo usuário
+- **Descrição**: O cupom de desconto pode ser aplicado várias vezes para o mesmo usuário, sem limite.
+- **Risco**: Esse comportamento pode resultar em perda de receita, pois o usuário pode acumular descontos indevidamente. Além disso, compromete a credibilidade das promoções, impactando a imagem e a lucratividade do negócio.
+
+2. Cupom continua ativo mesmo após a remoção dos itens necessários para sua ativação
+- **Descrição**: Após o usuário remover itens do carrinho que ativaram o cupom de desconto, o desconto ainda permanece aplicado.
+- **Risco**: Esse problema gera inconsistência na experiência do usuário e pode causar confusão quanto ao funcionamento correto do carrinho. Além disso, o cliente pode continuar recebendo o desconto mesmo sem atender aos requisitos, o que representa uma perda financeira.
   
 ## Tecnologias Utilizadas
 
