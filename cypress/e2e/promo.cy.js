@@ -23,7 +23,7 @@ describe('Promoção', () => {
       })
     })
   
-    describe('Sem promoção com menos de 3 itens no carrinho', () => {
+    describe('Sem promoção disponível com menos de 3 itens no carrinho', () => {
       it('Entrar na página inicial', () => {
         cy.visit('/')
       })
@@ -37,12 +37,12 @@ describe('Promoção', () => {
       })
     })
 
-    describe('Promoção com diferentes produtos', () => {
+    describe('Promoção disponível com diferentes produtos', () => {
       it('Entrar na página inicial', () => {
         cy.visit('/')
       })
   
-      it('Adicionar 3 cafés', () => {
+      it('Adicionar 3 Café Expresso', () => {
         _.times(3, () => {
           menu.selectFirstProduct();
         });
@@ -56,7 +56,7 @@ describe('Promoção', () => {
         menu.goToCartPage()
       })
 
-      it('Remover os cafés', () => {
+      it('Remover os Café Expresso', () => {
         cart.removeAllCoffes()
       })
     
@@ -65,12 +65,12 @@ describe('Promoção', () => {
       })
     })
 
-    describe('Limite de promoção por usuário', () => {
+    describe('Limite de uma promoção por usuário', () => {
       it('Entrar na página inicial', () => {
         cy.visit('/')
       })
   
-      it('Adicionar 3 cafés', () => {
+      it('Adicionar 3 Café Expresso', () => {
         _.times(3, () => {
           menu.selectFirstProduct();
         });
@@ -80,7 +80,7 @@ describe('Promoção', () => {
         menu.confirmPromo()
       })
 
-      it('Adicionar 2 novos cafés', () => {
+      it('Adicionar 2 novos Café Expresso', () => {
         _.times(2, () => {
           menu.selectFirstProduct();
         });
