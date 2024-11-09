@@ -33,7 +33,7 @@ Este projeto foi desenvolvido para exercitar habilidades de QA em automação, u
 
 A estrutura de pastas e arquivos é organizada para facilitar a manutenção e entendimento dos testes.
 
-   bash
+   ```bash
    ├── cypress/
    │   ├── e2e/
    │   │   ├── cart.cy.js         # Testes do carrinho de compras
@@ -45,30 +45,30 @@ A estrutura de pastas e arquivos é organizada para facilitar a manutenção e e
    │   │   ├── commands.js        # Comandos customizados do Cypress
    │   │   ├── e2e.js             # Configurações globais para o Cypress
    ├── README.md                  # Documentação do projeto
-
+   ```
 ## Instalação e Execução
 
 Para rodar os testes em sua máquina local, siga os passos abaixo:
 
 1. **Clone este repositório**:
 
-   bash
+   ```bash
    git clone https://github.com/MateusFels/coffee-cart_QA.git
    cd "seu_repositorio"
 
 2. **Instale as dependências**:
 
-   bash
+   ```bash
    npm install
 
 3. **Execute os testes**:
 
  - Para rodar os testes em modo interativo:
 
-   bash
+   ```bash
    npx cypress open
 
  - Para rodar os testes em modo headless (sem interface):
 
-   bash
+   ```bash
    npx cypress run
