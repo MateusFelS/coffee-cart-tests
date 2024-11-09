@@ -33,7 +33,7 @@ Este projeto foi desenvolvido para exercitar habilidades de QA em automação, u
 
 A estrutura de pastas e arquivos é organizada para facilitar a manutenção e entendimento dos testes.
 
-   ``` bash
+   ```bash
    ├── cypress/
    │   ├── e2e/
    │   │   ├── cart.cy.js         # Testes do carrinho de compras
