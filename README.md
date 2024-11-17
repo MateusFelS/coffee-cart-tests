@@ -1,7 +1,5 @@
 # Estudo de Testes com Cypress - Coffee Cart
 
-Este é um projeto de estudo para aprender e praticar automação de testes com Cypress. O objetivo é testar as funcionalidades de um site d# Estudo de Testes com Cypress - Coffee Cart
-
 Este é um projeto de estudo para aprender e praticar automação de testes com Cypress. O objetivo é testar as funcionalidades de um site de carrinho de compras simulado [Coffee Cart](https://coffee-cart.app), cobrindo cenários como adicionar produtos, verificar itens no carrinho, aplicar promoções e remover itens.
 
 ## Índice
